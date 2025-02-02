@@ -19,3 +19,17 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@layer components {
+  .btn {
+    @apply bg-zinc-500 px-4 py-2 rounded-md;
+    @apply hover:bg-zinc-700;
+  }
+
+
+  .input {
+    @apply bg-black bg-opacity-20 px-4 py-2 rounded-md;
+    @apply focus:outline-none;
+    @apply focus:ring-2 focus:ring-opacity-30 focus:ring-white;
+  }
+}

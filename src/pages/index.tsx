@@ -1,4 +1,4 @@
-import { IconForms } from "@tabler/icons-react";
+import { IconArrowsDownUp, IconForms } from "@tabler/icons-react";
 import MenuItem from "./components/template/MenuItem";
 
 export default function Home() {
@@ -15,8 +15,9 @@ export default function Home() {
         ">Estado</span>
       </div>
 
-      <div>
+      <div className="flex flex-wrap justify-around w-3/5">
         <MenuItem icone={<IconForms/>} texto="Estado" url="/revisao/estado"/>
+        <MenuItem icone={<IconArrowsDownUp/>} texto="Comunicação" url="/revisao/comunicacao"/>
       </div>
     </div>
   );
