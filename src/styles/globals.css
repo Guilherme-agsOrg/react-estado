@@ -26,6 +26,15 @@ body {
     @apply hover:bg-zinc-700;
   }
 
+  .btn-info {
+    @apply  btn;
+    @apply bg-blue-500 hover:bg-blue-700;
+  }
+
+  .btn-danger {
+    @apply  btn;
+    @apply bg-red-500 hover:bg-red-700;
+  }
 
   .input {
     @apply bg-black bg-opacity-20 px-4 py-2 rounded-md;
