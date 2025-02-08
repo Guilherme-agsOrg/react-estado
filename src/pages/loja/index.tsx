@@ -1,7 +1,7 @@
 import { CarrinhoProvider } from "@/context/CarrinhoContext";
 import { CatalogoProvider } from "@/context/CatalogoContext";
-import Carrinho from "../components/loja/Carrinho";
-import Catalogo from "../components/loja/Catalogo";
+import Carrinho from "../../components/loja/Carrinho";
+import Catalogo from "../../components/loja/Catalogo";
 
 export default function Loja(){
     return (

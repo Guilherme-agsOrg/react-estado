@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Area from "../components/template/Area";
+import Area from "../../components/template/Area";
 
 export default function RevisaoEstado() {
     const [texto, setTexto] = useState('');

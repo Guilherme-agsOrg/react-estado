@@ -1,5 +1,5 @@
-import { IconArrowsDownUp, IconForms, IconNumbers, IconShoppingCart } from "@tabler/icons-react";
-import MenuItem from "./components/template/MenuItem";
+import { IconArrowsDownUp, IconForms, IconNumbers, IconShoppingCart, IconVideo } from "@tabler/icons-react";
+import MenuItem from "../components/template/MenuItem";
 
 export default function Home() {
   return (
@@ -20,6 +20,7 @@ export default function Home() {
         <MenuItem icone={<IconArrowsDownUp/>} texto="Comunicação" url="/revisao/comunicacao"/>
         <MenuItem icone={<IconNumbers/>} texto="Básico" url="/basico"/>
         <MenuItem icone={<IconShoppingCart/>} texto="Loja" url="/loja"/>
+        <MenuItem icone={<IconVideo/>} texto="EAD" url="/desafio"/>
       </div>
     </div>
   );
